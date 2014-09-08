@@ -1,0 +1,78 @@
+header{
+	width: 100%;
+	height:130px;
+}
+section{
+	width:100%;
+}
+form{
+	position: center;
+	width:100;
+	text-align: center;
+}
+#input_list{
+	width:40%;
+	height:30px;
+	border:2px solid yellow;
+	border-radius:10px;
+	color:#45f;
+	outline: none;
+	font-size: 1.3em;
+	text-align: center;
+	text-transform: uppercase;
+}
+#add_list{
+	width:8%;
+	padding: .7% 0 0.5%;
+	margin:0 0 0% 1%;
+	font-size:1em;
+	background-color: lightgreen;
+	color:purple;
+	font-weight: bold;
+	border-radius: 12px;
+}
+form p{
+	font-size: 1.2em;
+	margin:1% 9% 0 0;
+	color:red;
+}
+.listWrapper{
+	width: 100%;
+	text-align: center;
+	background-color:green;
+	margin-top: 1%;
+}
+.listTable{
+	width:80%;
+	border:2px solid brown;
+	background-color:yellow;
+	margin-left:10%;
+	height: 400px;
+	border-radius: 5%;
+}
+.listTable h2{
+	font-size: 5ex;
+	font-weight: bold;
+	padding:1% 2% 0 0;
+	color: brown;
+}
+.roughList{
+	margin-top: 2%;
+	margin-left: 5%;
+	width:45%;
+	height: 100px;
+	background-color:lightblue;
+	float: left;
+}
+.finalList{
+	margin-top: 2%;
+	margin-right: 5%;
+	width:45%;
+	height: 100px;
+	background-color: lightgreen;
+	float: right;
+	display: table;
+}
+.hide_ppt{
+	display:none;
+}
