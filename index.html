@@ -1,51 +1,67 @@
+<!--Shoppingtool application is an application written to solve 
+the problem of keeping track of users shopping list items. Users can add items to the list, check items
+after purchase and delete items from the list
+
+@2014 oladayo.oyelade@andela.co
+ -->
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Shopping List</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css"></link>
-	<link rel="stylesheet" type="text/css" href="css/reset.css"></link>
-	<script rel="javscript" type="text/javascript" src="js/main.js"></script>
-	<script rel="javscript" type="text/javascript" src="js/jquery-1.11.1.js"></script>
-	<meta charset="utf-8">
-</head>
-<body>
-	<header>
-		<div>
-			<img src="images/logo.PNG">
-			<h1><span>S</span>hoppingTool</h1>
-			<p>&middot &middot Shopping made easy</p>
-		</div>
-	</header>
-	<section>
-		<form action="/" method="get">
-			<input type="text" name="text" id="input_list" title="Add to your shopping list"></input>
-			<input type="submit" name="add" id="add_list" value="Add to List"></input>
-			<p id="warning">Too short use to append</p>
-		</form>
-		<div class=listWrapper>
-			<div class="listTable">
-				<h2>Your Shopping List</h2>
-				<div class="welcome">
-					<p><span>Welcome!</span>&nbspThere is no item in your shopping list. Add items to your shopping list. It's free</p>
-				</div>
-				<div class="listwrapper group hide_ppt">
-					<div class="roughList">
-						<h3>Rough List</h3>
-						<ul>
-							
-						</ul>
+	<!--Shoppingtool code reference-->
+	<head>
+		<title>Shopping List</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css"></link>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"></link>
+		<script rel="javscript" type="text/javascript" src="js/main.js"></script>
+		<script rel="javscript" type="text/javascript" src="js/jquery-1.11.1.js"></script>
+		<meta charset="utf-8">
+	</head>
+	<!--Shoppingtool Page-->
+	<body>
+		<!--Shoppingtool Header Container-->
+		<header>
+			<div>
+				<img src="images/logo.PNG">
+				<h1><span>S</span>hoppingtool</h1>
+				<p> &middot &middot &middot shopping made easy</p>
+			</div>
+		</header>
+		<!--Shoppingtool Main body-->
+		<section>
+			<!--Shoppingtool Main body form-->
+			<form action="/" method="get">
+				<input type="text" name="text" id="input_list" title="Add to your shopping list"></input>
+				<input type="submit" name="add" id="add_list" value="ADD"></input>
+				<p id="warning">Description is too short add a more detail item description</p>
+			</form>
+			<!--Shoppingtool List Container-->
+			<div class=listWrapper>
+				<div class="listTable">
+					<h2>Your Shopping List</h2>
+					<!--Shoppingtool welcome message-->
+					<div class="welcome">
+						<p><span>Welcome!!!</span>&nbsp</br>There is no item in your shopping list.</br> Add items to your shopping list. It's free</p>
 					</div>
-					<div class="hide_ppt finalList">
-						<h3>Final List</h3>
-						<ul>
+					<!--Shoppingtool uncompleted and completed container -->
+					<div class="listwrapper group hide_ppt">
+						<!--Shoppingtool Uncompleted List-->
+						<div class="roughList">
+							<h3>Uncompleted</h3>
+							<ul>
+								
+							</ul>
+						</div>
+						<!--Shoppingtool completed List-->
+						<div class="hide_ppt finalList">
+							<h3>Completed</h3>
+							<ul>
 
-						</ul>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<script rel="javscript" type="text/javascript" src="js/main.js"></script>
-	<script rel="javscript" type="text/javascript" src="js/jquery-1.11.1.js"></script>
-</body>
+		</section>
+		<script rel="javscript" type="text/javascript" src="js/main.js"></script>
+		<script rel="javscript" type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	</body>
 </html>
