@@ -139,12 +139,12 @@ form p{
 .finalList ul li{
 	color:gray;
 	font-style: italic;
+	text-decoration: line-through;
 }
 .finalList{
 	margin-right: 5%;
 	background-color: lightgreen;
 	float: right;
-	text-decoration:line-through;
 }
 .hide_ppt{
 	display:none;
